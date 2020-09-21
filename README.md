@@ -6,3 +6,11 @@ Please also check https://hub.docker.com/u/akisatok.
 ## minconda3-base
 
 An extension of the official miniconda3 image. Several packages for data science are additionally installed.
+
+## pytorch-base
+
+An extension of the official miniconda3 Docker image for the use of pytorch.
+
+## pytorch-tutorial
+
+Specialized for my pytorch tutorial, which will be presented in github in near future.
