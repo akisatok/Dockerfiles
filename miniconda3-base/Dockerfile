@@ -7,3 +7,4 @@ RUN conda install -c conda-forge jupyter jupyterlab
 RUN apt-get update && apt-get install -y curl
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt-get install -y nodejs
+RUN conda install nodejs
