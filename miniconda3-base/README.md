@@ -11,6 +11,7 @@ An extension of the official miniconda3 Docker image. Several packages are addit
 * conda install
   * numpy, scipy, pandas, matplotlib, scikit-learn
   * conda-forge: jupyter, jupyterlab
+  * nodejs (for jupyterlab labextension)
 * apt-get install
   * nodejs (for jupyterlab labextension)
 
