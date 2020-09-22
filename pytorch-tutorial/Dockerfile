@@ -7,7 +7,7 @@ LABEL Description='Specialized for my pytorch tutorial shown in github.'
 RUN conda install --quiet --yes -c conda-forge ipywidgets
 ## tensorboard
 RUN conda install --quiet --yes -c conda-forge tensorflow
-RUN pip install --quiet--yes jupyter-tensorboard
+RUN pip install --quiet --yes jupyter-tensorboard
 ## kite
 RUN wget -q -O /tmp/kite-setup.sh https://linux.kite.com/dls/linux/current
 RUN chmod +x /tmp/kite-setup.sh
