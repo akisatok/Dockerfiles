@@ -6,7 +6,7 @@ LABEL Description='Specialized for my pytorch tutorial shown in github.'
 ## jupyterlab-manager
 RUN conda install -qyc conda-forge ipywidgets
 ## tensorboard
-RUN conda install --qyc conda-forge tensorflow
+RUN conda install -qyc conda-forge tensorflow
 RUN pip install -q --no-cache-dir jupyter-tensorboard
 ## kite
 RUN wget -q -O /tmp/kite-setup.sh https://linux.kite.com/dls/linux/current
