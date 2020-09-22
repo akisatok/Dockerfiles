@@ -19,7 +19,7 @@ RUN pip install -q --no-cache-dir jupyter-kite
 RUN jupyter labextension install @jupyterlab/toc @jupyter-widgets/jupyterlab-manager jupyterlab-emacskeys jupyterlab_tensorboard @kiteco/jupyterlab-kite
 
 # ray tune
-RUN conda install -qyc psutil
+RUN conda install -qy psutil
 RUN pip install -q --no-cache-dir ray[tune]
 
 # optuna
