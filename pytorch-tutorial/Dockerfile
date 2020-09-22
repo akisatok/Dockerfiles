@@ -17,3 +17,11 @@ RUN rm -f /tmp/kite-setup.sh /tmp/kite-installer
 RUN pip install -q --no-cache-dir jupyter-kite
 ## install
 RUN jupyter labextension install @jupyterlab/toc @jupyter-widgets/jupyterlab-manager jupyterlab-emacskeys jupyterlab_tensorboard @kiteco/jupyterlab-kite
+
+# ray tune
+RUN conda install -qyc psutil
+RUN pip install -q --no-cache-dir ray[tune]
+
+# optuna
+RUN conda install -qyc conda-forge optuna
+RUN conda install -qyc plotly plotly

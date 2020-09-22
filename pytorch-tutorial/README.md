@@ -14,8 +14,11 @@ Specialized for my pytorch tutorial, which will be presented in github in near f
   * pytorch: pytorch, torchvision
   * nodejs (for jupyterlab labextension)
   * conda-forge: ipywidgets, tensorflow (for jupyterlab TensorBoard extension)
-* pip installed
+  * conda-forge: optuna
+  * plotly (for optuna visualization)
+* pip install
   * jupyterlab-tensorboard, jupyter-kite
+  * ray[tune]
 * apt-get install
   * nodejs (for jupyterlab labextension)
 * Original setup
