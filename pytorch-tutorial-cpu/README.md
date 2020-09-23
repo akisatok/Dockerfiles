@@ -1,6 +1,6 @@
 # pytoch-tutorial-cpu
 
-Specialized for my pytorch tutorial, which will be presented in github in near future.
+Specialized for my pytorch tutorial, which will be presented in github in near future
 
 ## Base
 
