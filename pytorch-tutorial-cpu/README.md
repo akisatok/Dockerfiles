@@ -34,8 +34,8 @@ Specialized for my pytorch tutorial, which will be presented in github in near f
 
 (Host)
 ```
-$ docker pull akisatok/pytorch-tutorial
-$ docker run -it -p 8888:8888 -v /home/hoge:/home/hoge --name pytorch-tutorial akisatok/pytorch-tutorial
+$ docker pull akisatok/pytorch-tutorial-cpu
+$ docker run -it -p 8888:8888 -v /home/hoge:/home/hoge --name pytorch-tutorial akisatok/pytorch-tutorial-cpu
 ```
 
 (Container)
