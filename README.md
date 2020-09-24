@@ -11,6 +11,10 @@ An extension of the official miniconda3 image. Several packages for data science
 
 An extension of the official miniconda3 Docker image for the use of pytorch.
 
-## pytorch-tutorial-cpu
+## pytorch-gpu-base
+
+An extension of the official NVIDIA CUDA Docker image for the use of pytorch.
+
+## pytorch-tutorial-cpu/gpu
 
 Specialized for my pytorch tutorial, which will be presented in github in near future.
