@@ -19,6 +19,6 @@ An extension of the official miniconda3 Docker image for the use of pytorch.
 ## Commands
 
 ```
-$ docker pull akisatok/pytorch-base
-$ docker run -it -p 8888:8888 -v /home/hoge:/home/hoge --name pytorch-base akisatok/pytorch-base
+$ docker pull akisatok/pytorch-cpu-base
+$ docker run -it -p 8888:8888 -v /home/hoge:/home/hoge --name pytorch-base akisatok/pytorch-cpu-base
 ```
