@@ -1,6 +1,6 @@
 # pytoch-cpu-base
 
-An extension of the official miniconda3 Docker image for the use of pytorch
+An extension of the official miniconda3 Docker image for the use of pytorch.
 
 ## Base
 

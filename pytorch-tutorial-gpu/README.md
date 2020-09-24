@@ -4,7 +4,7 @@ Specialized for my pytorch tutorial, which will be presented in github in near f
 
 ## Base
 
-[continuumio/miniconda3](https://hub.docker.com/r/continuumio/anaconda3/)
+[nvidia/cuda:10.2-cudnn8-devel-ubuntu18.04](https://hub.docker.com/r/nvidia/cuda/tags?page=1&name=10.2-cudnn8-devel-ubuntu)
 
 ## Additional packages
 
@@ -34,8 +34,8 @@ Specialized for my pytorch tutorial, which will be presented in github in near f
 
 (Host)
 ```
-$ docker pull akisatok/pytorch-tutorial
-$ docker run -it -p 8888:8888 -v /home/hoge:/home/hoge --name pytorch-tutorial akisatok/pytorch-tutorial
+$ docker pull akisatok/pytorch-tutorial-gpu
+$ docker run -it -p 8888:8888 -v /home/hoge:/home/hoge --name pytorch-tutorial akisatok/pytorch-tutorial-gpu
 ```
 
 (Container)
