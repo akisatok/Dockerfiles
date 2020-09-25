@@ -9,7 +9,7 @@ RUN conda install -qyc conda-forge ipywidgets
 RUN conda install -qyc conda-forge tensorflow
 RUN pip install -q --no-cache-dir jupyter-tensorboard
 ## kite
-RUN wget -q -O /tmp/kite-setup.sh https://linux.kite.com/dls/linux/current
+RUN bash -c 'curl -sL https://linux.kite.com/dls/linux/current -o /tmp/kite-setup.sh '
 RUN chmod +x /tmp/kite-setup.sh
 RUN /tmp/kite-setup.sh --download /tmp/kite-installer
 RUN /tmp/kite-installer install
